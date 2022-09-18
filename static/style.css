@@ -1,0 +1,96 @@
+html{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+.nav-item{
+
+    margin-left: 15%;
+
+}
+
+.carousel-item{
+    height: 80vh;
+    min-height: 300px;
+    background: center no-repeat scroll center;
+    background-size: cover;
+}
+.carousel-caption{
+    bottom: 30%;
+}
+.carousel-indicators{
+    bottom: 3rem;
+}
+.carousel-item::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom:0%;
+    right: 0%;
+    background: #000;
+    opacity: 0.45;
+}
+.carousel-caption h1{
+    font-size: 5rem;
+}
+.carousel-caption p{
+    font-size: 1.3rem;
+}
+
+ .carousel-caption .btn{
+    width: 16%;
+    padding: 1% 2%;
+    text-align: center;
+    margin-bottom: 0% ;
+    border-radius: 2%;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.carousel-caption .btn:hover{
+    background-color: #009688;
+}
+
+.con{
+
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.con .btn1{
+    text-align: center;
+    justify-content: center;
+
+}
+
+@media only screen and (max-width: 890px) {
+    .carousel-item {
+      height: 100%;
+    }
+  }
+  @media only screen and (max-width: 1199px) {
+    .carousel-caption h1 {
+        font-size: 3rem;
+      }
+      .carousel-caption .btn{
+        width: 20%;
+      }
+  }
+  @media only screen and (max-width: 499px) {
+    .carousel-item {
+       
+       min-height: fit-content;
+      
+    }
+  }
+  @media only screen and (max-width: 912px) {
+    .carousel-item {
+       height: 100%;
+      
+    }
+  }
